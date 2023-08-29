@@ -1,53 +1,41 @@
 def validity_check(text):
     if text.isdigit():
-        number = int(text)
-        print("cool!")
         return True
     else:
         print("Ошибка! Можно вводить только числа.")
         return False
 
+
+def operation_check():
+    if operation == "+" or operation == "-" or operation == "/" or operation == "*":
+        return True
+    else:
+        print("Ошибка! Можно вводить только +, -, *, /.")
+        return False
+
+
 text1 = input("Введите первое число: ")
-validity_check(text1)
+while not validity_check(text1):
+    text1 = input("Введите первое число: ")
+operation = input("Выберите действие: ")
+while not operation_check():
+    operation = input("Выберите действие: ")
 
+text2 = input("Введите второе число: ")
+while not validity_check(text2):
+    text2 = input("Введите второе число: ")
 
-# b = input("Выберите действие: ")
-# c = int(input("Введите второе число: "))
-#
-# if b == "+":
-#     result = int(a + c)
-# if b == "-":
-#     result = int(a - c)
-# if b == "*":
-#     result = int(a * c)
-# if b == "/":
-#         try:
-#             result = int(a / c)
-#         except ZeroDivisionError:
-#             result = 0
-#             print("На 0 делить нельзя")
-# print("Результат: " + str(result))
-
-
-
-# 1. строковая переменная с введенными данными
-# 2. проверка все ли символы в строке являются цифрами
-# 2а. если все цифры,то преобразовываем стоку в число и переходим к следующему действию
-# 2б. если есть другие символы то показываем ошибку
-
-# и даем пользователю ввести снова, переходим к действию 1
-
-# 3. вводим мат действие
-# 4. проверяем соответствует ли приведенный символ одному из вариантов
-# 4а. если соответствует ничего не делаем
-# 4б. если не соответтвует то показываем ошибку и даем пользователю ввести снова, переходим к действию 4
-# # 5. строковая переменная с введенными данными
-# # 6. проверка все ли символы в строке являются цифрами
-# 6а. если все цифры,то преобразовываем стоку в число и переходим к следующему действию
-# 6б. если есть другие символы то показываем ошибку и даем пользователю ввести снова, переходим к действию 5
-# 7. выполняем мат действия
-# 8. выводим в консоль
-
-
-
-
+value1 = int(text1)
+value2 = int(text2)
+if operation == "+":
+    result = value1 + value2
+if operation == "-":
+    result = value1 - value2
+if operation == "*":
+    result = value1 * value2
+if operation == "/":
+    try:
+        result = value1 / value2
+        print("Результат: " + str(int(result)))
+    except ZeroDivisionError:
+        print("На 0 делить нельзя")

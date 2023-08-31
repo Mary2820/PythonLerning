@@ -1,4 +1,4 @@
-def validity_check(text):
+def check_is_valid(text):
     if text.isdigit():
         return True
     else:
@@ -15,19 +15,19 @@ def operation_check():
 
 
 text1 = input("Введите первое число: ")
-while not validity_check(text1):
+while not check_is_valid(text1):
     text1 = input("Введите первое число: ")
 operation = input("Выберите действие: ")
 while not operation_check():
     operation = input("Выберите действие: ")
 
 text2 = input("Введите второе число: ")
-while not validity_check(text2):
-    text2 = input("Введите второе число: ")
+while not check_is_valid(text2):
+    text2 = input('Введите второе число: ')
 
 value1 = int(text1)
 value2 = int(text2)
-if operation == "+":
+if operation == '+':
     result = value1 + value2
 if operation == "-":
     result = value1 - value2
@@ -36,6 +36,6 @@ if operation == "*":
 if operation == "/":
     try:
         result = value1 / value2
-        print("Результат: " + str(int(result)))
     except ZeroDivisionError:
         print("На 0 делить нельзя")
+print("Результат: " + str(int(result)))

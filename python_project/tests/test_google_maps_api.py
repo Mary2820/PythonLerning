@@ -1,4 +1,3 @@
-import json
 import allure
 from PythonLerning.python_project.tests.checking import Checking
 from PythonLerning.python_project.utils.api import Google_maps_api

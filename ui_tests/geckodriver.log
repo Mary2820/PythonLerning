@@ -1,0 +1,83 @@
+1694503096461	geckodriver	INFO	Listening on 127.0.0.1:50226
+1694503098445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\QUAZIM~1\\AppData\\Local\\Temp\\rust_mozprofileNTGFmI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694503098975	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694503099067	Marionette	INFO	Listening on port 50239
+WebDriver BiDi listening on ws://127.0.0.1:50227
+Read port: 50239
+1694503099360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50227/devtools/browser/54ceb9da-a0fb-407e-a332-e108c33cedcc
+1694503109479	Marionette	INFO	Stopped listening on port 50239
+Dynamically enable window occlusion 1
+1694503297108	geckodriver	INFO	Listening on 127.0.0.1:50312
+1694503299095	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50313" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\QUAZIM~1\\AppData\\Local\\Temp\\rust_mozprofile7Loy1g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694503299509	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694503299604	Marionette	INFO	Listening on port 50322
+WebDriver BiDi listening on ws://127.0.0.1:50313
+Read port: 50322
+1694503299843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50313/devtools/browser/8cba5fa6-0981-463f-8bcf-33e30b8ecb4e
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZsx4/yp/l/en_US/mTM9L0cvAx0.js?_nc_x=Ij3Wp8lg5Kz, line 128: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iFBU4/yi/l/en_US/1f7t0wjG7AE.js?_nc_x=Ij3Wp8lg5Kz, line 897: Script terminated by timeout at:
+h.canUseNavigatorBeacon@https://static.cdninstagram.com/rsrc.php/v3iFBU4/yi/l/en_US/1f7t0wjG7AE.js?_nc_x=Ij3Wp8lg5Kz:897:4300
+B@https://static.cdninstagram.com/rsrc.php/v3iFBU4/yi/l/en_US/1f7t0wjG7AE.js?_nc_x=Ij3Wp8lg5Kz:897:1625
+h._initialize/<@https://static.cdninstagram.com/rsrc.php/v3iFBU4/yi/l/en_US/1f7t0wjG7AE.js?_nc_x=Ij3Wp8lg5Kz:897:4927
+d@https://static.cdninstagram.com/rsrc.php/v3iFBU4/yi/l/en_US/1f7t0wjG7AE.js?_nc_x=Ij3Wp8lg5Kz:898:158
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694503360416	Marionette	INFO	Stopped listening on port 50322
+Dynamically enable window occlusion 1
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+minated by timeout at:
+h.canUseNavigatorBeacon@https://static.cdninstagram.com/rsrc.php/v3iFBU4/yi/l/en_US/1f7t0wjG7AE.js?_nc_x=Ij3Wp8lg5Kz:897:4300
+B@https://static.cdninstagram.com/rsrc.php/v3iFBU4/yi/l/en_US/1f7t0wjG7AE.js?_nc_x=Ij3Wp8lg5Kz:897:1625
+h._initialize/<@https://static.cdninstagram.com/rsrc.php/v3iFBU4/yi/l/en_US/1f7t0wjG7AE.js?_nc_x=Ij3Wp8lg5Kz:897:4927
+d@https://static.cdninstagram.com/rsrc.php/v3iFBU4/yi/l/en_US/1f7t0wjG7AE.js?_nc_x=Ij3Wp8lg5Kz:898:158
+
+1694503353035	Marionette	INFO	Stopped listening on port 50383
+Dynamically enable window occlusion 1
+1694511178438	geckodriver	INFO	Listening on 127.0.0.1:52985
+1694511180426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52986" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\QUAZIM~1\\AppData\\Local\\Temp\\rust_mozprofileIJIuRx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694511180829	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694511180913	Marionette	INFO	Listening on port 52994
+WebDriver BiDi listening on ws://127.0.0.1:52986
+Read port: 52994
+1694511181084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1694511184662	geckodriver	INFO	Listening on 127.0.0.1:53006
+1694511186641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\QUAZIM~1\\AppData\\Local\\Temp\\rust_mozprofileA8jWJR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694511187065	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694511187159	Marionette	INFO	Listening on port 53019
+WebDriver BiDi listening on ws://127.0.0.1:53007
+Read port: 53019
+1694511187400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1694511189492	Marionette	INFO	Stopped listening on port 53019
+Dynamically enable window occlusion 1
+1694511189504	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+1694511204701	geckodriver	INFO	Listening on 127.0.0.1:53035
+1694511206680	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53036" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\QUAZIM~1\\AppData\\Local\\Temp\\rust_mozprofile2IzW3C"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694511207076	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694511207175	Marionette	INFO	Listening on port 53043
+Read port: 53043
+WebDriver BiDi listening on ws://127.0.0.1:53036
+1694511207240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53036/devtools/browser/feb81bac-9491-4ecd-9f17-11a2e427c6b2
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iZsx4/y_/l/en_US/SV2zdsvwT8j.js?_nc_x=Ij3Wp8lg5Kz, line 128: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: The compositor window received an input event even though it's disabled. There is likely malfunctioning software on the user's machine.
+1694511228676	Marionette	INFO	Stopped listening on port 53043
+Dynamically enable window occlusion 1
